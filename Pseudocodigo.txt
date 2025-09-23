@@ -1,0 +1,32 @@
+    • Inicio 
+    • Fin 
+    • Escribe "un texto a escribir" 
+    • Lee X 
+    • Si (condición) entonces 
+    • Si (condición) entonces ... Sino .... 
+    • Según (valor) entonces ... opcion1: ... opcion2: ... 
+    • Mientras (condición) hacer .... 
+    • Para X en (1...N) hacer .... 
+    • Operadores matemáticos básicos: +, -, *, /, // y % (módulo). 
+    • Operadores relacionales: == (igual), >, <, >=, <= y != (distinto). 
+    • Operadores lógicos: and, or y not (negación). 
+    • La asignación de valores a una variable la realizaremos con el símbolo = 
+
+
+Escribe los algoritmos (Cada uno en un archivo) para solucionar:
+
+1. Determinar si un número es par o impar
+Descripción: Programa que pide un número entero y determina si es par (divisible entre 2) o impar.
+Entrada: Número entero X.
+Salida: Mensaje indicando si X es par o impar. 
+
+
+****************************
+
+Inicio 
+
+    Escribe "Ingresa un numero entero" 
+
+
+
+
