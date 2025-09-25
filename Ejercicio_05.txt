@@ -15,29 +15,33 @@
 
 Escribe los algoritmos (Cada uno en un archivo) para solucionar:
 
+***********************************
 
-******************************
+Cálculo del importe total de un servicio
+Descripción: Calcula el importe total multiplicando horas trabajadas por el precio por hora.
+Entrada: Horas (número), coste_por_hora (número).
+Salida: Importe total. 
 
-1. Determinar si un número es par o impar
-Descripción: Programa que pide un número entero y determina si es par (divisible entre 2) o impar.
-Entrada: Número entero X.
-Salida: Mensaje indicando si X es par o impar. 
 
 
 Inicio 
 
-	numero_usuario = Escribe "Ingresa un numero entero" 
-	 
-	leer numero_usuario
-		
-		si(% == 0 ) entonces 
+    Horas_trabajasdas = Escribe "Escribe las horas trabajadas"
 
-        Escribe "par" 
+    Precio_horas = Escribe "escribe  el precio de la horas de trabajo"
 
-        Si ( %!= 0 ) entonces 
+    Resultado = Horas_trabajasdas * Precio_horas
 
-        Escribe "impar 
-Fin
+
+    Escribe "Resultado"
+
+Fin   
+
+
+
+
+
+
 
 
 

@@ -15,29 +15,25 @@
 
 Escribe los algoritmos (Cada uno en un archivo) para solucionar:
 
-
 ******************************
 
-1. Determinar si un número es par o impar
-Descripción: Programa que pide un número entero y determina si es par (divisible entre 2) o impar.
+3. Determinar si un número es primo
+Descripción: Indica si un número entero es primo (solo divisible entre 1 y él mismo).
 Entrada: Número entero X.
-Salida: Mensaje indicando si X es par o impar. 
-
+Salida: Mensaje indicando si X es primo o no. 
 
 Inicio 
+    
+    numero = x 
 
-	numero_usuario = Escribe "Ingresa un numero entero" 
-	 
-	leer numero_usuario
-		
-		si(% == 0 ) entonces 
+    Mientras ( x < 0 ) hacer 
 
-        Escribe "par" 
+        si ( x % == 1 or x % == x) entonces
 
-        Si ( %!= 0 ) entonces 
+        Escribe "Es primo"
 
-        Escribe "impar 
 Fin
+
 
 
 

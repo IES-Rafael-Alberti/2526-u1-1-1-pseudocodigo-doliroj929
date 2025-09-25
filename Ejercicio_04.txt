@@ -15,29 +15,29 @@
 
 Escribe los algoritmos (Cada uno en un archivo) para solucionar:
 
+***********************************
 
-******************************
+4.
+Bienvenida al usuario
+Descripción: Solicita el nombre del usuario y muestra un saludo personalizado.
+Entrada: Texto con el nombre del usuario.
+Salida: “Hola, [nombre].” 
 
-1. Determinar si un número es par o impar
-Descripción: Programa que pide un número entero y determina si es par (divisible entre 2) o impar.
-Entrada: Número entero X.
-Salida: Mensaje indicando si X es par o impar. 
 
 
-Inicio 
+Inicio   
 
-	numero_usuario = Escribe "Ingresa un numero entero" 
-	 
-	leer numero_usuario
-		
-		si(% == 0 ) entonces 
+    nombre = Escribe "Cual es tu nombre"
 
-        Escribe "par" 
+    leer nombre
 
-        Si ( %!= 0 ) entonces 
+    Escribe "hola + nombre" 
 
-        Escribe "impar 
-Fin
+fin    
+
+
+
+
 
 
 

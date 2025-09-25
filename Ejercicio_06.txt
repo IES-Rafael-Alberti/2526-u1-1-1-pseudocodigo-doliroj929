@@ -15,29 +15,35 @@
 
 Escribe los algoritmos (Cada uno en un archivo) para solucionar:
 
+***********************************
+6. Conversión de grados Celsius a Fahrenheit
+ Descripción: Convierte una temperatura de Celsius a Fahrenheit.
+ Entrada: Temperatura en Celsius (C).
+ Salida: Temperatura en Fahrenheit (F). 
 
-******************************
-
-1. Determinar si un número es par o impar
-Descripción: Programa que pide un número entero y determina si es par (divisible entre 2) o impar.
-Entrada: Número entero X.
-Salida: Mensaje indicando si X es par o impar. 
-
+Formula   ºF = (ºC * 1,8) + 32
 
 Inicio 
+    
+    Celsius = C 
 
-	numero_usuario = Escribe "Ingresa un numero entero" 
-	 
-	leer numero_usuario
-		
-		si(% == 0 ) entonces 
+    leer C 
 
-        Escribe "par" 
+    Si (C es entero) entonces
 
-        Si ( %!= 0 ) entonces 
+    resultado_f = (C * 1,8) + 32
 
-        Escribe "impar 
-Fin
+    Escribe "resultado_f" 
+
+
+Fin 
+
+
+
+
+
+
+
 
 
 
