@@ -15,29 +15,28 @@
 
 Escribe los algoritmos (Cada uno en un archivo) para solucionar:
 
+***********************************
 
-******************************
-
-1. Determinar si un número es par o impar
-Descripción: Programa que pide un número entero y determina si es par (divisible entre 2) o impar.
-Entrada: Número entero X.
-Salida: Mensaje indicando si X es par o impar. 
-
+8. Calcular importe sin IVA e IVA pagado
+Descripción: Dado el precio final (con IVA), calcula el precio sin IVA y el IVA pagado (asume 10%).
+Entrada: precio_final (número).
+Salida: precio_sin_iva, iva_pagado. 
 
 Inicio 
 
-	numero_usuario = Escribe "Ingresa un numero entero" 
-	 
-	leer numero_usuario
-		
-		si(% == 0 ) entonces 
-    
-        Escribe "par" 
-        
-        Sino...
+    precio_final = precio_final 
 
-        Escribe "impar 
-Fin
+    precio_sin_iva = precio_final / 1,10  
+
+    IVA_pagado = precio_sin_iva - precio_final 
+
+
+
+
+
+
+
+
 
 
 

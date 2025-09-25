@@ -26,7 +26,20 @@ Salida: precio_final.
 
 Inicio  
 
-    precio_sin_iva = 
+
+
+    precio_sin_iva = precio_sin_iva 
+
+    iva = (%)iva  
+
+    precio_final + (%)iva 
+
+escribir "precio_final" 
+
+fin 
+
+    
+    
 
 
 

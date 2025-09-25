@@ -15,29 +15,33 @@
 
 Escribe los algoritmos (Cada uno en un archivo) para solucionar:
 
-
-******************************
-
-1. Determinar si un número es par o impar
-Descripción: Programa que pide un número entero y determina si es par (divisible entre 2) o impar.
-Entrada: Número entero X.
-Salida: Mensaje indicando si X es par o impar. 
-
+***********************************
+Suma de tres números
+Descripción: Solicita tres números y muestra su suma.
+Entrada: num1, num2, num3.
+Salida: Suma total. 
 
 Inicio 
 
-	numero_usuario = Escribe "Ingresa un numero entero" 
-	 
-	leer numero_usuario
-		
-		si(% == 0 ) entonces 
-    
-        Escribe "par" 
-        
-        Sino...
+    num1 = Escribe "un numero entero"
 
-        Escribe "impar 
-Fin
+    num2= Escribe "un numero entero"
+
+    num3 = Escribe "un numero entero"
+
+
+    resultado = num1 + num2 + num3
+
+Escribe "resultado" 
+
+
+fin 
+
+
+
+
+
+
 
 
 
